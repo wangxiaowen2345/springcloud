@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-eureka-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/micro-eureka-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microeureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mricro-provier8001" charset="UTF-8" />
+  </component>
+</project>
