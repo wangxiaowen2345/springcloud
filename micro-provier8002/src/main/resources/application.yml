@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 
 
 mybatis:
@@ -13,7 +13,7 @@ spring:
   datasource:
     driver-class-name: org.gjt.mm.mysql.Driver
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://127.0.0.1:3306/youmi
+    url: jdbc:mysql://127.0.0.1:3306/youmi2
     username: root
     password: root
 
@@ -30,7 +30,7 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
 
   instance:
-    instance-id: micro-dept8001
+    instance-id: micro-dept8002
     prefer-ip-address: true
 
 
