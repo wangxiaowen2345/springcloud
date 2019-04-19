@@ -11,6 +11,8 @@
         <module name="microeureka" />
         <module name="microeureka7002" />
         <module name="microeureka7003" />
+        <module name="microprovier8002" />
+        <module name="microprovier8003" />
         <module name="mricroprovier8001" />
       </profile>
     </annotationProcessing>
