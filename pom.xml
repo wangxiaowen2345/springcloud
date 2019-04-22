@@ -18,6 +18,7 @@
         <module>micro-provier8002</module>
         <module>micro-provier8002</module>
         <module>micro-provier8003</module>
+        <module>micro-provier-hystrix-8001</module>
     </modules>
     <packaging>pom</packaging>
 
