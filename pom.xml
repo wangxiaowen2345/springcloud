@@ -10,6 +10,7 @@
     <modules>
         <module>micro-api</module>
         <module>micro-consumer</module>
+        <module>micro-consumer-feign</module>
         <module>mricro-provier8001</module>
         <module>micro-eureka</module>
         <module>micro-eureka-7002</module>
