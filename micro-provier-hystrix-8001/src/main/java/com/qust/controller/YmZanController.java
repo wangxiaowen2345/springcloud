@@ -1,7 +1,6 @@
 package com.qust.controller;
 
 
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.qust.entity.YmZan;
 import com.qust.service.YmZanService;
 import com.qust.utils.ErrorEnum;
@@ -21,11 +20,12 @@ public class YmZanController {
     YmZanService ymZanService;
 
     @RequestMapping(value="list/{page}",method = RequestMethod.GET)
-    @HystrixCommand(defaultFallback = "nullHystrix")//一旦调用服务信息失败并抛出了错误信息后，会自动调用@HystrixCommand指定的方法
+    //在api中添加了熔断配置之后，不必在每个方法内重复添加
+    // @HystrixCommand(defaultFallback = "nullHystrix")//一旦调用服务信息失败并抛出了错误信息后，会自动调用@HystrixCommand指定的方法
     public Result list(@PathVariable(value = "page") Integer page) throws Exception{
         List<YmZan> ymZans = ymZanService.list();
-        if (null==ymZans)
-            throw new RuntimeException("未查找到数据！");
+        //if (null==ymZans)
+        //    throw new RuntimeException("未查找到数据！");
         return  ResultUtils.result(ErrorEnum.SUCCESS, ymZans);
     }
 

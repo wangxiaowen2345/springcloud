@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 
-@FeignClient(value = "MICRO-DEMO")
+@FeignClient(value = "MICRO-DEMO",fallbackFactory = YmZanClientServiceFallbackFactory.class)
 public interface YmZanClientService {
 
     @RequestMapping(value="list/{page}",method = RequestMethod.GET)
