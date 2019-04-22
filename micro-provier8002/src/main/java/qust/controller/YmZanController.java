@@ -1,15 +1,15 @@
 package qust.controller;
 
 
-import com.qust.common.Result;
-import com.qust.utils.ErrorEnum;
-import com.qust.utils.ResultUtils;
+import qust.common.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import qust.service.YmZanTwoService;
+import qust.utils.ErrorEnum;
+import qust.utils.ResultUtils;
 
 @RestController
 public class YmZanController {

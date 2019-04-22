@@ -1,4 +1,4 @@
-package qust.utils;
+package com.qust.common;
 
 public class Result {
 	private Boolean success;

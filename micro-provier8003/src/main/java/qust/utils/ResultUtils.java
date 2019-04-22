@@ -1,5 +1,7 @@
 package qust.utils;
 
+import qust.common.Result;
+
 public class ResultUtils {
 
     public static Result result(ErrorEnum errorEnum, Object object){
