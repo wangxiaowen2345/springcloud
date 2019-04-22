@@ -19,6 +19,7 @@
         <module>micro-provier8002</module>
         <module>micro-provier8003</module>
         <module>micro-provier-hystrix-8001</module>
+        <module>micro-hystrix-dashboard-9001</module>
     </modules>
     <packaging>pom</packaging>
 
