@@ -12,6 +12,7 @@
         <module name="microeureka" />
         <module name="microeureka7002" />
         <module name="microeureka7003" />
+        <module name="microgateway9527" />
         <module name="microhystrixdashboard9001" />
         <module name="microprovier8002" />
         <module name="microprovier8003" />
