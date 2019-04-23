@@ -21,3 +21,10 @@ info:
   company.name: com.qust
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+
+
+zuul:
+  routes:
+    mydept.serviceid: micro-demo
+    mydept.path: /mydept/**
+  ignored-services: micro-demo
